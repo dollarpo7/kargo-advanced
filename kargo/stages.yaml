@@ -109,6 +109,7 @@ spec:
       kind: Warehouse
       name: guestbook
     sources:
+      availabilityStrategy: All
       stages:
       - ab-test-a
       - ab-test-b
